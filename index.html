@@ -4,6 +4,10 @@
 <head>
 	<link href="/style.css" rel="stylesheet">
 	<link rel="icon" href="/Ressources/images/logo/Reservia@3x.png" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
 	<meta charset="utf-8" />
 	<title>Reservia</title>
 
@@ -12,23 +16,32 @@
 <body>
 	<header>
 		<!--Navbar-->
-		<nav>
-			<img />
-			<section>
-				<menu>
-					<li>
-						Hébergements
-					</li>
-					<li>
-						Activités
-					</li>
-					<li>
-						S'inscrire
-					</li>
-				</menu>
-			</section>
+		<nav id="Navbar">
+			<a href="#">
+			<img alt="Logo" src="/Ressources/images/logo/Reservia.svg" style="margin-top:50%;"/>
+			</a>
+			<menu id="Links">
+				<li class="LinkBox" id="LinkActive">
+					<a class="Link" href="#Hébergements"></a>
+					Hébergements
+				</li>
+				<li class="LinkBox">
+					<a class="Link" href="#Activité"></a>
+					Activités
+				</li>
+				<li class="LinkBox" id="SignUp">
+					<a class="Link" href="#SignUp"></a>
+					S'inscrire
+				</li>
+			</menu>
 		</nav>
 
+
+	</header>
+
+
+	<!--Main section-->
+	<main>
 		<!--Search cection-->
 		<section>
 			<h3>Trouvez votre hébergement pour des vacances de rêve</h3>
@@ -74,13 +87,11 @@
 			</figcaption>
 		</figure>
 
-	</header>
-
-
-	<!--Main section-->
-	<main>
 		<!--Hébergements-->
 		<section>
+			<div class="Anchor">
+				<div id="Hébergements"></div>
+			</div>
 			<h2>Hébergements à Marseille</h2>
 			<ul>
 				<li>
@@ -146,7 +157,7 @@
 			</ul>
 		</section>
 		<aside>
-		<!--Populaires-->
+			<!--Populaires-->
 			<section>
 				<h2>Les plus populaires
 					<!--TODO Ajouter Icone-->
@@ -167,7 +178,7 @@
 							<img />
 							<figcaption>
 								<h4>
-									Au cœur de l'eau<br/>
+									Au cœur de l'eau<br />
 									Chambres d'hôtes
 								</h4>
 								<p>Nuit à partir de 71 <b>€</b></p>
@@ -192,6 +203,9 @@
 
 	<!--Activities-->
 	<section>
+		<div class="Anchor">
+			<div id="Activité"></div>
+		</div>
 		<h2>Activités à Marseille</h2>
 		<div>
 			<div>
@@ -214,7 +228,7 @@
 					</figcaption>
 				</figure>
 			</div>
-						<div>
+			<div>
 				<figure>
 					<img />
 					<figcaption>

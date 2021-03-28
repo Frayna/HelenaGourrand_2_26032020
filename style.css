@@ -1,0 +1,105 @@
+/* Palette */
+:root{
+	--main-color-- : #0065FC;
+	--secondary-light-color-- : #DEEBFF;
+	--main-bg-color-- : #F2F2F2;
+	--nav-size-- : 120px;
+}
+
+/*Wrapping*/
+body{
+	width: 1200px;
+	margin: auto;
+}
+
+/*Overridding user agent*/
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+menu{
+	list-style:none;
+	margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*Header*/
+#Navbar {
+	top:0;
+	position: fixed;
+	width: 1200px;
+	background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1) 90%, rgba(255,255,255,.1));
+	display: flex;
+	justify-content: space-between;
+}
+
+#Navbar:hover {
+	opacity: 1;
+}
+
+#Links{
+	display: flex;
+	justify-content: stretch;
+}
+
+.LinkBox{
+	padding: calc((var(--nav-size--) / 2) - 10px);
+	position: relative;
+	align-self: center;
+}
+
+
+.Link {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.LinkBox:hover{
+	color: var(--main-color--);
+}
+
+.LinkBox:hover::before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: var(--main-color--);
+	height: 3px;
+	width: 100%;
+}
+
+#SignUp{
+	color: var(--main-color--);
+	font-weight: 600;
+}
+
+/* Main */
+main{
+	padding-top: var(--nav-size--);
+}
+
+.Anchor{
+	position: absolute;
+	margin-top: calc(var(--nav-size--) * -1);
+}
