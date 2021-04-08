@@ -1,0 +1,33 @@
+.search-container {
+	display: grid;
+	grid-template: 40px / 40px 1fr 150px;
+	width: 20%;
+}
+
+#gps-icon {
+	padding-top: 30%;
+	width: 100%;
+	border-radius: 12.5px 0 0 12.5px;
+	background-color: var(--main-bg-color--);
+}
+
+#search-field {
+	border: 1px solid var(--main-bg-color--);
+	font-weight: bolder;
+	padding-left: 20px;
+}
+:focus {
+	outline: none;
+}
+
+#search-field::-webkit-calendar-picker-indicator {
+	display: none;
+}
+
+#search-button {
+	border: none;
+	border-radius: 0 15px 15px 0;
+	color: white;
+	background-color: var(--main-color--);
+}
+

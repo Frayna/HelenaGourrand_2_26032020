@@ -3,6 +3,11 @@
 
 <head>
 	<link href="./style.css" rel="stylesheet">
+	<link href="./texts.css" rel="stylesheet">
+	<link href="./cards.css" rel="stylesheet">
+	<link href="./icons.css" rel="stylesheet">
+	<link href="./search.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 	<link rel="icon" href="./Ressources/images/logo/Reservia@3x.png" />
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link
@@ -18,7 +23,7 @@
 		<!--Navbar-->
 		<nav id="Navbar">
 			<a href="#">
-			<img alt="Logo" src="./Ressources/images/logo/Reservia.svg" style="margin-top:50%;"/>
+				<img alt="Logo" src="./Ressources/images/logo/Reservia.svg" style="margin-top:50%;" />
 			</a>
 			<menu id="Links">
 				<li class="LinkBox" id="LinkActive">
@@ -47,13 +52,15 @@
 			<h3>Trouvez votre hébergement pour des vacances de rêve</h3>
 			<p>En pleine ville ou en pleine nature</p>
 			<!--Search bar-->
-			<form>
-				<!--TODO GPS Icon-->
-				<input list="ville" type="text" value="Marseille, France" placeholder="Selectionnez une ville">
+			<form class="search-container">
+				<i class="fas fa-map-marker-alt" id="gps-icon" style="text-align: center;">
+				</i>
+				<input list="ville" type="text" value="Marseille, France" id="search-field">
 				<datalist id="ville">
 					<option value="Marseille, France">
+					<option value="Bordeaux, France">
 				</datalist>
-				<button>Rechercher</button>
+				<button class="title" id="search-button">Rechercher</button>
 			</form>
 			<!--Filters-->
 			<div>
