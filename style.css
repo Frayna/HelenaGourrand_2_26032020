@@ -64,7 +64,7 @@ html {
 	opacity: 1;
 }
 
-#Links{
+.Links{
 	display: flex;
 	justify-content: stretch;
 }

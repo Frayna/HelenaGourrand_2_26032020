@@ -124,16 +124,16 @@
 		bottom: 0;
 	}
 
-	#Links > :first-child:hover::before{
+	.Links > :first-child:hover::before{
 		left:-20px;
 		width: calc(100% + 20px);
 	}
-	#Links > :last-child:hover::before{
+	.Links > :last-child:hover::before{
 		right:-20px;
 		width: calc(100% + 20px);
 	}
 
-	#Links{
+	.Links{
 		justify-content: stretch;
 	}
 
