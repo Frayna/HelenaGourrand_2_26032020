@@ -1,0 +1,140 @@
+.card-container{
+	display: grid;
+	grid-template: repeat(2, 250px) / repeat(3, 1fr);
+	width: 100%;
+	gap: 40px 30px;
+}
+
+.middle-bloc{
+	background-color: var(--main-bg-color--);
+	border-radius: 20px;
+	padding: 35px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card-hebergement{
+	border-radius: 20px;
+	padding: 5px;
+	filter: drop-shadow(5px 5px 10px rgba(0,0,0,.1));
+	background-color: white;
+	height: 100%;
+}
+
+.image-hebergement{
+	object-fit: cover;
+	border-radius: 20px 20px 0 0;
+	width: 100%;
+	height: 65%;
+	margin-bottom: 8px;
+}
+
+.full-star{
+	color: var(--main-color--);
+}
+
+.empty-star{
+	color: var(--main-bg-color--);
+}
+
+.card-caption{
+	padding-left: 5%;
+}
+
+.heb-hr{
+	display: flex;
+	height: 150px;
+}
+
+.img-hr{
+	width: 40%;
+	height: 100%;
+	border-radius: 20px 0 0 20px;
+	margin-bottom: 0;
+}
+
+
+#middle-section{
+	display: flex;
+	justify-content: space-between;
+}
+#middle-panel{
+	width: 60%;
+}
+#side-panel{
+	width: 30%;
+}
+
+#card-list{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 650px;
+}
+
+.fig-hr{
+	padding:  10px 0 15px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title-fig {
+	margin-bottom: 10px;
+}
+
+#title-activite {
+	margin: 40px 0px 15px 0;
+}
+
+.activite-container {
+	display: flex;
+	justify-content: space-between;
+	height: 400px;
+}
+
+.activite-bloc{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.activite-card{
+	width: 24vw;
+	height: 100%;
+	padding: 0;
+}
+
+.activite-card-s{
+	width: 20vw;
+	height: 40%;
+	padding : 0 ;
+	padding-bottom: 26px;
+}
+
+.image-activite{
+	object-fit: cover;
+	border-radius: 20px 20px 0 0;
+	width: 100%;
+	height: 90%;
+	padding-bottom: -3px;
+}
+
+.activite-details > h4 {
+	margin-left: 15px;
+	margin-top: 7.5px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.activite-item{
+	display: flex;
+}
+
+.activite-item > div {
+	margin-right: 20px;
+}
