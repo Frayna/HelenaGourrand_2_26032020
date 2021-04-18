@@ -101,7 +101,7 @@ main{
 
 .Anchor{
 	position: absolute;
-	margin-top: calc(var(--nav-size--) * -1 - 35px);
+	margin-top: calc(var(--nav-size--) * -1 - 28px);
 }
 
 .p-footer{

@@ -40,7 +40,27 @@
 				</li>
 			</menu>
 		</nav>
-
+		<nav id="Navbar-resp">
+			<menu id="nav-resp-l1">
+				<a href="#">
+					<img alt="Logo" src="./Ressources/images/logo/Reservia.svg" id="Logo-resp"/>
+				</a>
+				<li id="SignUp">
+					<a class="Link" href="#SignUp" style="left:auto; right: 0; width: 100px;"></a>
+					S'inscrire
+				</li>
+			</menu>
+			<menu id="Links">
+				<li class="LinkBox" id="LinkActive">
+					<a class="Link" href="#Hébergements"></a>
+					Hébergements
+				</li>
+				<li class="LinkBox">
+					<a class="Link" href="#Activité"></a>
+					Activités
+				</li>
+			</menu>
+		</nav>
 
 	</header>
 
@@ -49,8 +69,8 @@
 	<main>
 		<!--Search cection-->
 		<section>
-			<h3>Trouvez votre hébergement pour des vacances de rêve</h3>
-			<p>En pleine ville ou en pleine nature</p>
+			<h3 style="margin: 10px 0">Trouvez votre hébergement pour des vacances de rêve</h3>
+			<p style="margin: 10px 0 20px 0">En pleine ville ou en pleine nature</p>
 			<!--Search bar-->
 			<form class="search-container">
 				<i class="fas fa-map-marker-alt" id="gps-icon" style="text-align: center;">
@@ -61,6 +81,9 @@
 					<option value="Bordeaux, France">
 				</datalist>
 				<button class="title" id="search-button">Rechercher</button>
+				<button class="title" id="search-button-resp">
+					<i class="fas fa-search" id="search-button-resp-ico"></i>
+				</button>
 			</form>
 			<!--Filters-->
 			<div class="filtre-container">
