@@ -70,7 +70,7 @@ html {
 }
 
 .LinkBox{
-	padding: calc((var(--nav-size--) / 2) - 10px);
+	padding: calc(calc(var(--nav-size--) / 2) - 10px);
 	position: relative;
 	align-self: center;
 }
@@ -106,7 +106,7 @@ main{
 
 .Anchor{
 	position: absolute;
-	margin-top: calc(var(--nav-size--) * -1 - 28px);
+	margin-top: calc(calc(var(--nav-size--) * -1) - 28px);
 }
 
 .p-footer{
