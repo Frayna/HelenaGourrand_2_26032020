@@ -140,6 +140,12 @@ main{
 	position: relative;
 	margin: 10px;
 	padding-left: 40px;
+	cursor: pointer;
+}
+
+.filtre:hover{
+	color: white;
+	background-color: var(--main-color--);
 }
 
 .filtre > i{
