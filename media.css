@@ -54,6 +54,7 @@
 		width: 100%;
 	}
 	.activite-item{
+		height: auto;
 		flex-direction: column;
 	}
 	.activite-item > div{

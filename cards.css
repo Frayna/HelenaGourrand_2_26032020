@@ -91,7 +91,6 @@
 .activite-container {
 	display: flex;
 	justify-content: space-between;
-	height: 400px;
 }
 
 .activite-bloc{
@@ -131,6 +130,7 @@ footer{
 }
 
 .activite-item{
+	height: 600px;
 	display: flex;
 }
 
