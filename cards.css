@@ -20,6 +20,11 @@
 	filter: drop-shadow(5px 5px 10px rgba(0,0,0,.1));
 	background-color: white;
 	height: 100%;
+	transition: all 0.2s;
+}
+
+.card-hebergement:hover{
+	transform: scale(1.1);
 }
 
 .image-hebergement{
