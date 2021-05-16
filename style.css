@@ -112,8 +112,8 @@ main{
 .p-footer{
 	position: absolute;
 	bottom: -159px;
-	width: calc(100% - 80px);
-	margin-left: -10px;
+	width: 100%;
+	margin-left: -50px;
 	margin-right: -10px;
 	margin-top: 40px;
 	background-color: var(--main-bg-color--);
