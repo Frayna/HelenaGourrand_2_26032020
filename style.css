@@ -110,23 +110,28 @@ main{
 }
 
 .p-footer{
+	position: absolute;
+	bottom: -159px;
+	width: calc(100% - 80px);
+	margin-left: -10px;
+	margin-right: -10px;
 	margin-top: 40px;
 	background-color: var(--main-bg-color--);
 	padding-left: 50px;
-	margin-left: -50px;
-	margin-right: -50px;
+	padding-right: 50px;
+
 }
 
-.p-footer > section {
+.p-footer > div > section {
 	width: 30%;
 }
 
-.p-footer > section > p{
+.p-footer > div > section > p{
 	font-size: 14px;
 	margin: 7px 0;
 }
 
-.p-footer > section > h5{
+.p-footer > div > section > h5{
 	margin-top: 40px;
 	margin-bottom: 15px;
 }
@@ -174,4 +179,20 @@ main{
 	color: var(--main-color--);
 	border-radius: 50px;
 	border: 1px var(--main-bg-color--) solid;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1600px;
+}
+
+.nav-contain{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	position: relative;
+}
+
+#Logo{
+	margin-top:50%;
 }

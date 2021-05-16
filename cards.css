@@ -108,13 +108,11 @@
 }
 
 .activite-card{
-	width: 24vw;
 	height: 100%;
 	padding: 0;
 }
 
 .activite-card-s{
-	width: 20vw;
 	height: 40%;
 	padding : 0 ;
 	padding-bottom: 26px;
@@ -132,7 +130,7 @@
 	margin-top: 7.5px;
 }
 
-footer{
+footer > div {
 	display: flex;
 	justify-content: space-between;
 }
